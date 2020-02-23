@@ -1,6 +1,6 @@
 ﻿namespace Practica1
 {
-	partial class Form3
+	partial class frmInversionistas
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -188,7 +188,7 @@
 			this.label5.TabIndex = 21;
 			this.label5.Text = "3.";
 			// 
-			// Form3
+			// frmInversionistas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -210,7 +210,8 @@
 			this.Controls.Add(this.txtInv2);
 			this.Controls.Add(this.txtPor1);
 			this.Controls.Add(this.txtInv1);
-			this.Name = "Form3";
+			this.Name = "frmInversionistas";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Inversionistas";
 			this.ResumeLayout(false);
 			this.PerformLayout();

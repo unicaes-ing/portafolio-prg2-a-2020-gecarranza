@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Practica1
 {
-	public partial class Form2 : Form
+	public partial class frmSistemas : Form
 	{
-		public Form2()
+		public frmSistemas()
 		{
 			InitializeComponent();
 		}

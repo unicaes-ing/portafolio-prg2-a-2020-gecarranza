@@ -1,6 +1,6 @@
 ﻿namespace Practica1
 {
-	partial class Form1
+	partial class frmPromedio
 	{
 		/// <summary>
 		/// Variable del diseñador necesaria.
@@ -142,7 +142,7 @@
 			this.txtProm.Size = new System.Drawing.Size(146, 20);
 			this.txtProm.TabIndex = 10;
 			// 
-			// Form1
+			// frmPromedio
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -159,7 +159,8 @@
 			this.Controls.Add(this.lblExam3);
 			this.Controls.Add(this.lblExam2);
 			this.Controls.Add(this.lblExam1);
-			this.Name = "Form1";
+			this.Name = "frmPromedio";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Promedio";
 			this.ResumeLayout(false);
 			this.PerformLayout();

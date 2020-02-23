@@ -1,6 +1,6 @@
 ﻿namespace Practica1
 {
-	partial class Form2
+	partial class frmSistemas
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -31,15 +31,15 @@
 			this.lblDecimal = new System.Windows.Forms.Label();
 			this.txtDecimal = new System.Windows.Forms.TextBox();
 			this.grpConversiones = new System.Windows.Forms.GroupBox();
-			this.lblBinario = new System.Windows.Forms.Label();
-			this.lblOctal = new System.Windows.Forms.Label();
+			this.txtHexa = new System.Windows.Forms.TextBox();
+			this.txtOctal = new System.Windows.Forms.TextBox();
+			this.txtBinario = new System.Windows.Forms.TextBox();
 			this.lblHexa = new System.Windows.Forms.Label();
+			this.lblOctal = new System.Windows.Forms.Label();
+			this.lblBinario = new System.Windows.Forms.Label();
 			this.btnCal = new System.Windows.Forms.Button();
 			this.btnLim = new System.Windows.Forms.Button();
 			this.btnSal = new System.Windows.Forms.Button();
-			this.txtBinario = new System.Windows.Forms.TextBox();
-			this.txtOctal = new System.Windows.Forms.TextBox();
-			this.txtHexa = new System.Windows.Forms.TextBox();
 			this.grpConversiones.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -76,15 +76,36 @@
 			this.grpConversiones.TabStop = false;
 			this.grpConversiones.Text = "Equivale a:";
 			// 
-			// lblBinario
+			// txtHexa
 			// 
-			this.lblBinario.AutoSize = true;
-			this.lblBinario.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblBinario.Location = new System.Drawing.Point(17, 44);
-			this.lblBinario.Name = "lblBinario";
-			this.lblBinario.Size = new System.Drawing.Size(56, 16);
-			this.lblBinario.TabIndex = 2;
-			this.lblBinario.Text = "Binario:";
+			this.txtHexa.Location = new System.Drawing.Point(114, 127);
+			this.txtHexa.Name = "txtHexa";
+			this.txtHexa.Size = new System.Drawing.Size(177, 24);
+			this.txtHexa.TabIndex = 7;
+			// 
+			// txtOctal
+			// 
+			this.txtOctal.Location = new System.Drawing.Point(114, 85);
+			this.txtOctal.Name = "txtOctal";
+			this.txtOctal.Size = new System.Drawing.Size(177, 24);
+			this.txtOctal.TabIndex = 6;
+			// 
+			// txtBinario
+			// 
+			this.txtBinario.Location = new System.Drawing.Point(114, 41);
+			this.txtBinario.Name = "txtBinario";
+			this.txtBinario.Size = new System.Drawing.Size(177, 24);
+			this.txtBinario.TabIndex = 5;
+			// 
+			// lblHexa
+			// 
+			this.lblHexa.AutoSize = true;
+			this.lblHexa.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblHexa.Location = new System.Drawing.Point(17, 135);
+			this.lblHexa.Name = "lblHexa";
+			this.lblHexa.Size = new System.Drawing.Size(91, 16);
+			this.lblHexa.TabIndex = 4;
+			this.lblHexa.Text = "Hexadecimal:";
 			// 
 			// lblOctal
 			// 
@@ -96,15 +117,15 @@
 			this.lblOctal.TabIndex = 3;
 			this.lblOctal.Text = "Octal:";
 			// 
-			// lblHexa
+			// lblBinario
 			// 
-			this.lblHexa.AutoSize = true;
-			this.lblHexa.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblHexa.Location = new System.Drawing.Point(17, 135);
-			this.lblHexa.Name = "lblHexa";
-			this.lblHexa.Size = new System.Drawing.Size(91, 16);
-			this.lblHexa.TabIndex = 4;
-			this.lblHexa.Text = "Hexadecimal:";
+			this.lblBinario.AutoSize = true;
+			this.lblBinario.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblBinario.Location = new System.Drawing.Point(17, 44);
+			this.lblBinario.Name = "lblBinario";
+			this.lblBinario.Size = new System.Drawing.Size(56, 16);
+			this.lblBinario.TabIndex = 2;
+			this.lblBinario.Text = "Binario:";
 			// 
 			// btnCal
 			// 
@@ -139,28 +160,7 @@
 			this.btnSal.UseVisualStyleBackColor = true;
 			this.btnSal.Click += new System.EventHandler(this.btnSal_Click);
 			// 
-			// txtBinario
-			// 
-			this.txtBinario.Location = new System.Drawing.Point(114, 41);
-			this.txtBinario.Name = "txtBinario";
-			this.txtBinario.Size = new System.Drawing.Size(177, 24);
-			this.txtBinario.TabIndex = 5;
-			// 
-			// txtOctal
-			// 
-			this.txtOctal.Location = new System.Drawing.Point(114, 85);
-			this.txtOctal.Name = "txtOctal";
-			this.txtOctal.Size = new System.Drawing.Size(177, 24);
-			this.txtOctal.TabIndex = 6;
-			// 
-			// txtHexa
-			// 
-			this.txtHexa.Location = new System.Drawing.Point(114, 127);
-			this.txtHexa.Name = "txtHexa";
-			this.txtHexa.Size = new System.Drawing.Size(177, 24);
-			this.txtHexa.TabIndex = 7;
-			// 
-			// Form2
+			// frmSistemas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -172,7 +172,8 @@
 			this.Controls.Add(this.grpConversiones);
 			this.Controls.Add(this.txtDecimal);
 			this.Controls.Add(this.lblDecimal);
-			this.Name = "Form2";
+			this.Name = "frmSistemas";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Sistemas";
 			this.grpConversiones.ResumeLayout(false);
 			this.grpConversiones.PerformLayout();
