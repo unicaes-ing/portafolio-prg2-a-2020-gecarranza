@@ -21,7 +21,8 @@ namespace Practica2
 		{
 			if (txtNumero.Text.Length == 0)
 			{
-				MessageBox.Show("No puede dejar el campo vacio");
+				MessageBox.Show("No puede dejar el campo vacio", "Sistema", MessageBoxButtons.OK,
+					MessageBoxIcon.Exclamation);
 			}
 			else
 			{

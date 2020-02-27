@@ -19,12 +19,7 @@ namespace Practica2
 
 		private void btnCalcular_Click(object sender, EventArgs e)
 		{
-			if (txtCantidad.Text.Length == 0 && txtPrecio.Text.Length == 0)
-			{
-				MessageBox.Show("No puede dejar ningun campo vacio");
-				txtCantidad.Focus();
-			}
-			else
+			try
 			{
 				double cant = Convert.ToDouble(txtCantidad.Text);
 				double pre = Convert.ToDouble(txtPrecio.Text);
@@ -67,6 +62,12 @@ namespace Practica2
 					txtDescuento.Text = string.Format("{0:C2}", desc);
 					txtTotal.Text = string.Format("{0:C2}", total2);
 				}
+			}
+			catch (Exception)
+			{
+
+				MessageBox.Show("Ingrese un caracter valido", "Sistema", MessageBoxButtons.OK,
+					MessageBoxIcon.Exclamation);
 			}
 		}
 
