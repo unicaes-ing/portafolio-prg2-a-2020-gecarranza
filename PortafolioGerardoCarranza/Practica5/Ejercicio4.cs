@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Practica5
+namespace Practica4
 {
 	public partial class frmMayor : Form
 	{

@@ -1,4 +1,4 @@
-﻿namespace Practica5
+﻿namespace Practica4
 {
 	partial class frmLista
 	{
