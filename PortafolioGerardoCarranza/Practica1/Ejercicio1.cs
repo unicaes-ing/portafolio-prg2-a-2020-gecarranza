@@ -19,12 +19,20 @@ namespace Practica1
 
 		private void btnCalcular_Click(object sender, EventArgs e)
 		{
-			double exam1, exam2, exam3, promedio;
-			exam1 = Convert.ToDouble(txtExam1.Text);
-			exam2 = Convert.ToDouble(txtExam2.Text);
-			exam3 = Convert.ToDouble(txtExam3.Text);
-			promedio = ((exam1 + exam2 + exam3) / 3);
-			txtProm.Text = Convert.ToString(promedio);
+			try
+			{
+				double exam1, exam2, exam3, promedio;
+				exam1 = Convert.ToDouble(txtExam1.Text);
+				exam2 = Convert.ToDouble(txtExam2.Text);
+				exam3 = Convert.ToDouble(txtExam3.Text);
+				promedio = ((exam1 + exam2 + exam3) / 3);
+				txtProm.Text = Convert.ToString(promedio);
+			}
+			catch (Exception)
+			{
+
+				MessageBox.Show("Error");
+			}
 		}
 
 		private void btnLimpiar_Click(object sender, EventArgs e)

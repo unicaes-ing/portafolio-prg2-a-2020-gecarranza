@@ -19,20 +19,28 @@ namespace Practica1
 
 		private void btnCal_Click(object sender, EventArgs e)
 		{
-			double n1, n2, n3, p1, p2, p3, porc;
-			n1 = Convert.ToDouble(txtInv1.Text);
-			n2 = Convert.ToDouble(txtInv2.Text);
-			n3 = Convert.ToDouble(txtInv3.Text);
-			porc = (n1 + n2 + n3);
+			try
+			{
+				double n1, n2, n3, p1, p2, p3, porc;
+				n1 = Convert.ToDouble(txtInv1.Text);
+				n2 = Convert.ToDouble(txtInv2.Text);
+				n3 = Convert.ToDouble(txtInv3.Text);
+				porc = (n1 + n2 + n3);
 
-			p1 = (n1 * 100 / porc);
-			p2 = (n2 * 100 / porc);
-			p3 = (n3 * 100 / porc);
+				p1 = (n1 * 100 / porc);
+				p2 = (n2 * 100 / porc);
+				p3 = (n3 * 100 / porc);
 
-			txtTotal.Text = Convert.ToString(porc);
-			txtPor1.Text = Convert.ToString(p1);
-			txtPor2.Text = Convert.ToString(p2);
-			txtPor3.Text = Convert.ToString(p3);
+				txtTotal.Text = Convert.ToString(porc);
+				txtPor1.Text = Convert.ToString(p1);
+				txtPor2.Text = Convert.ToString(p2);
+				txtPor3.Text = Convert.ToString(p3);
+			}
+			catch (Exception)
+			{
+
+				MessageBox.Show("Error");
+			}
 		}
 
 		private void btnLim_Click(object sender, EventArgs e)

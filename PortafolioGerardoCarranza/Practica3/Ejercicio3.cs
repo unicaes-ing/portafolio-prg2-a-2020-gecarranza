@@ -19,21 +19,21 @@ namespace Practica3
 
 		private void btnLanzar_Click(object sender, EventArgs e)
 		{
-			int dado = 0, conta = 0, n6 = 0;
-			Random num = new Random();
+			int d = 0, c = 0, n6 = 0;
+			Random numero = new Random();
 			lstLanzar.Items.Clear();
 			const int lanzar = 5000;
-			while (conta < lanzar)
+			while (c < lanzar)
 			{
-				dado = num.Next(1, 15);
-				conta++;
-				lstLanzar.Items.Add(dado);
-				if (dado == 6)
+				d = numero.Next(1, 15);
+				c++;
+				lstLanzar.Items.Add(d);
+				if (d == 6)
 				{
 					n6++;
 				}
 			}
-			MessageBox.Show("el numero 6 se obtubo " + n6 + " veces","Resultado", MessageBoxButtons.OK,
+			MessageBox.Show("el numero 6 se obtubo " + n6 + " veces","Resultado", MessageBoxButtons.OKCancel,
 					MessageBoxIcon.None);
 		}
 	}

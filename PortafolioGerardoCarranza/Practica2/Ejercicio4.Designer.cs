@@ -155,6 +155,7 @@
 			this.Name = "frmUsuario";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Datos de usuario";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmUsuario_FormClosing);
 			((System.ComponentModel.ISupportInitialize)(this.errCorreo)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.errContra)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.errConfir)).EndInit();

@@ -92,5 +92,10 @@ namespace Practica2
 		{
 			this.Close();
 		}
+
+		private void frmUsuario_FormClosing(object sender, FormClosingEventArgs e)
+		{
+			e.Cancel = false;
+		}
 	}
 }

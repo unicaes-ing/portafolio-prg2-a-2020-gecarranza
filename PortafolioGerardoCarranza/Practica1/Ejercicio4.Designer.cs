@@ -142,6 +142,7 @@
 			// 
 			// cboTitulo
 			// 
+			this.cboTitulo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cboTitulo.FormattingEnabled = true;
 			this.cboTitulo.Items.AddRange(new object[] {
             "1.  \"Cien años de soledad\" de Gabriel Garcia Marquez",

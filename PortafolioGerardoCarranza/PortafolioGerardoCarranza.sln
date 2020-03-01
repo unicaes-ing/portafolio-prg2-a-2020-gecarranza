@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica2", "Practica2\Prac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica3", "Practica3\Practica3.csproj", "{6721EC4A-5A37-44A1-BDDF-3E3A5F3A37C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica4", "D:\PRACTICA 4 2020\Practica4\Practica4\Practica4.csproj", "{449D0122-5219-48CF-9AC6-1920771DAE43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica4", "Practica5\Practica4.csproj", "{533D75CF-0AAD-42E3-B81D-5DFCC868F6CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{6721EC4A-5A37-44A1-BDDF-3E3A5F3A37C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6721EC4A-5A37-44A1-BDDF-3E3A5F3A37C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6721EC4A-5A37-44A1-BDDF-3E3A5F3A37C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{449D0122-5219-48CF-9AC6-1920771DAE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{449D0122-5219-48CF-9AC6-1920771DAE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{449D0122-5219-48CF-9AC6-1920771DAE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{449D0122-5219-48CF-9AC6-1920771DAE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533D75CF-0AAD-42E3-B81D-5DFCC868F6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533D75CF-0AAD-42E3-B81D-5DFCC868F6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533D75CF-0AAD-42E3-B81D-5DFCC868F6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533D75CF-0AAD-42E3-B81D-5DFCC868F6CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

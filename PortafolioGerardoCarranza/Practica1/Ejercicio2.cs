@@ -19,10 +19,18 @@ namespace Practica1
 
 		private void btnCal_Click(object sender, EventArgs e)
 		{
-			int dec = Convert.ToInt32(txtDecimal.Text);
-			txtBinario.Text = Convert.ToString(dec, 2);
-			txtOctal.Text = Convert.ToString(dec, 8);
-			txtHexa.Text = Convert.ToString(dec, 16);
+			try
+			{
+				int dec = Convert.ToInt32(txtDecimal.Text);
+				txtBinario.Text = Convert.ToString(dec, 2);
+				txtOctal.Text = Convert.ToString(dec, 8);
+				txtHexa.Text = Convert.ToString(dec, 16);
+			}
+			catch (Exception)
+			{
+
+				MessageBox.Show("Error");
+			}
 		}
 
 		private void btnLim_Click(object sender, EventArgs e)

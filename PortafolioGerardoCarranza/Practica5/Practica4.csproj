@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6721EC4A-5A37-44A1-BDDF-3E3A5F3A37C4}</ProjectGuid>
+    <ProjectGuid>{533D75CF-0AAD-42E3-B81D-5DFCC868F6CF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Practica3</RootNamespace>
-    <AssemblyName>Practica3</AssemblyName>
+    <RootNamespace>Practica5</RootNamespace>
+    <AssemblyName>Practica5</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -70,12 +70,6 @@
     <Compile Include="Ejercicio4.Designer.cs">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicion5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejercicion5.Designer.cs">
-      <DependentUpon>Ejercicion5.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejercicio1.resx">
@@ -89,9 +83,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio4.resx">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicion5.resx">
-      <DependentUpon>Ejercicion5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -19,15 +19,23 @@ namespace Practica1
 
 		private void btnCalcula_Click(object sender, EventArgs e)
 		{
-			double pre, cant, sub, imp, total;
-			pre = Convert.ToDouble(txtPrecio.Text);
-			cant = Convert.ToDouble(txtCantidad.Text);
-			sub = (pre * cant);
-			txtSub.Text = Convert.ToString(sub);
-			imp = (sub * 0.13);
-			txtImpuesto.Text = Convert.ToString(imp);
-			total = (sub + imp);
-			txtTotal.Text = Convert.ToString(total);
+			try
+			{
+				double pre, cant, sub, imp, total;
+				pre = Convert.ToDouble(txtPrecio.Text);
+				cant = Convert.ToDouble(txtCantidad.Text);
+				sub = (pre * cant);
+				txtSub.Text = Convert.ToString(sub);
+				imp = (sub * 0.13);
+				txtImpuesto.Text = Convert.ToString(imp);
+				total = (sub + imp);
+				txtTotal.Text = Convert.ToString(total);
+			}
+			catch (Exception)
+			{
+
+				MessageBox.Show("Error");
+			}
 		}
 
 		private void btnNueva_Click(object sender, EventArgs e)

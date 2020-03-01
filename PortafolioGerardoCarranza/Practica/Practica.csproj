@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6721EC4A-5A37-44A1-BDDF-3E3A5F3A37C4}</ProjectGuid>
+    <ProjectGuid>{A4DE1D6B-41E1-43F3-881F-FB3E236E9768}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Practica3</RootNamespace>
-    <AssemblyName>Practica3</AssemblyName>
+    <RootNamespace>Practica</RootNamespace>
+    <AssemblyName>Practica</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,53 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejercicio1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejercicio1.Designer.cs">
-      <DependentUpon>Ejercicio1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejercicio2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejercicio2.Designer.cs">
-      <DependentUpon>Ejercicio2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejercicio3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejercicio3.Designer.cs">
-      <DependentUpon>Ejercicio3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejercicio4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejercicio4.Designer.cs">
-      <DependentUpon>Ejercicio4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejercicion5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejercicion5.Designer.cs">
-      <DependentUpon>Ejercicion5.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Ejercicio1.resx">
-      <DependentUpon>Ejercicio1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicio2.resx">
-      <DependentUpon>Ejercicio2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicio3.resx">
-      <DependentUpon>Ejercicio3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicio4.resx">
-      <DependentUpon>Ejercicio4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicion5.resx">
-      <DependentUpon>Ejercicion5.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
